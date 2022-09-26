@@ -9,7 +9,7 @@ int tester(int * c, int k)
 
 int main()
 {
-	int x[1000];
+	int x[10000];
 
 	for(int i = 0; i < 10000; ++i)
     {
@@ -19,7 +19,7 @@ int main()
 	printf("Enter an integer in 0..9999: ");
 
     int k = 0;
-	scanf("%d", k);
+	scanf("%d", &k);
 
 	tester(x, k);
 }
