@@ -7,9 +7,9 @@ class animal
 {
 protected:
     std::string name;
+
 public:
     animal(std::string);
-
     virtual void pet() const = 0;
 };
 
